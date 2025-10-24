@@ -1,10 +1,10 @@
 ### Échelle de difficulté
 
-* 1. x - trivial (0.4 point).
-* 2. x x - facile (0.8 point).
-* 3. x x x - moyen (1.2 point).
-* 4. x x x x - difficile (1.6 point).
-* 5. x x x x x - challenge (2 points).
+1. x - trivial (0.4 point).
+2. x x - facile (0.8 point).
+3. x x x - moyen (1.2 point).
+4. x x x x - difficile (1.6 point).
+5. x x x x x - challenge (2 points).
 
 ---
 
@@ -188,3 +188,4 @@
     ```
 
 *Pour ce pseudo code j'ai affiché directement mais sinon j'aurais fait une sortie et au lieu de affiche("gg!") j'aurais fait resultat ← 1 si c'est vrai et resultat ← 0 si faux.*
+
