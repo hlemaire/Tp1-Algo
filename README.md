@@ -140,7 +140,7 @@
        5 |   amende ← 0
        6 |   points ← 0
        7 |   affiche("Amende possible mais aucun retrait de points")
-       8 | sinon si exces >= 5 /\ exces < 20 alors
+       8 | sinon si exces ≥ 5 /\ exces < 20 alors
        9 |   si limitation > 50 alors
       10 |     amende ← 68
       11 |     points ← 1
@@ -148,19 +148,19 @@
       13 |     amende ← 135
       14 |     points ← 1
       15 |   affiche("Amende de", amende," et perte de", points,"points")
-      16 | sinon si exces >= 20 /\ exces < 30 alors
+      16 | sinon si exces ≥ 20 /\ exces < 30 alors
       17 |   amende ← 135
       18 |   points ← 2
       19 |   affiche("Amende de", amende," et perte de", points,"points")
-      20 | sinon si exces >= 30 /\ exces < 40 alors
+      20 | sinon si exces ≥ 30 /\ exces < 40 alors
       21 |   amende ← 135
       22 |   points ← 3
       23 |   affiche("Amende de", amende," et perte de", points,"points")
-      24 | sinon si exces >= 40 /\ exces < 50 alors
+      24 | sinon si exces ≥ 40 /\ exces < 50 alors
       25 |   amende ← 135
       26 |   points ← 4
       27 |   affiche("Amende de", amende," et perte de", points,"points")
-      28 | sinon si exces >= 50 alors
+      28 | sinon si exces ≥ 50 alors
       29 |   amende ← 1500
       30 |   points ← 6
       31 |   affiche("Amende de", amende," et perte de", points,"points")
@@ -186,9 +186,9 @@
         2 |     affiche("Vous n'avez pas saisi un âge correct.")
         3 | sinon si age < 14 alors
         4 |     categorie ← "Enfant"
-        5 | sinon si age <= 24 alors
+        5 | sinon si age ≤ 24 alors
         6 |     categorie ← "Adolescent"
-        7 | sinon si age <= 64 alors
+        7 | sinon si age ≤ 64 alors
         8 |     categorie ← "Adulte"
         9 | sinon
        10 |     categorie ← "Aîné"
@@ -216,6 +216,7 @@
     ```
 
 *Pour ce pseudo code j'ai affiché directement mais sinon j'aurais fait une sortie et au lieu de affiche("gg!") j'aurais fait resultat ← 1 si c'est vrai et resultat ← 0 si faux.*
+
 
 
 
