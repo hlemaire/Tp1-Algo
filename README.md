@@ -182,17 +182,17 @@
         1 | entrée : age : entier
         2 | entrée : categorie : char1
     2 début:
-        si age < 0 \/ age > 150 alors
-            affiche("Vous n'avez pas saisi un âge correct.")
-        sinon si age < 14 alors
-            categorie ← "Enfant"
-        sinon si age <= 24 alors
-            categorie ← "Adolescent"
-        sinon si age <= 64 alors
-            categorie ← "Adulte"
-        sinon
-            categorie ← "Aîné"
-        affiche("vous êtes :",categorie)
+        1 | si age < 0 \/ age > 150 alors
+        2 |     affiche("Vous n'avez pas saisi un âge correct.")
+        3 | sinon si age < 14 alors
+        4 |     categorie ← "Enfant"
+        5 | sinon si age <= 24 alors
+        6 |     categorie ← "Adolescent"
+        7 | sinon si age <= 64 alors
+        8 |     categorie ← "Adulte"
+        9 | sinon
+       10 |     categorie ← "Aîné"
+       11 | affiche("vous êtes :",categorie)
     3 fin
     ```
 ---
@@ -216,6 +216,7 @@
     ```
 
 *Pour ce pseudo code j'ai affiché directement mais sinon j'aurais fait une sortie et au lieu de affiche("gg!") j'aurais fait resultat ← 1 si c'est vrai et resultat ← 0 si faux.*
+
 
 
 
