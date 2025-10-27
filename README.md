@@ -1,3 +1,6 @@
+### CC1 Maison
+* Hugo Lemaire 1A2
+
 ### Échelle de difficulté
 
 1. x - trivial (0.4 point).
@@ -216,6 +219,7 @@
     ```
 
 *Pour ce pseudo code j'ai affiché directement mais sinon j'aurais fait une sortie et au lieu de affiche("gg!") j'aurais fait resultat ← 1 si c'est vrai et resultat ← 0 si faux.*
+
 
 
 
