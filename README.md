@@ -169,6 +169,34 @@
 
 ---
 
+## Exercice 10 (x x x Déterminer une catégorie d’âge). = 1.2p
+
+1. Écrire un pseudo-code qui demande son âge à l’utilisateur puis lui affiche la catégorie des groupes établis selon le cycle de vie correspondante :
+   *  Enfant : moins de 14 ans.
+   *  Adolescent : de 15 à 24 ans.
+   *  Adulte : de 25 à 64 ans.
+   *  Aîné : plus de 65 ans.
+
+    ```
+    1 données:
+        1 | entrée : age : entier
+        2 | entrée : categorie : char1
+    2 début:
+        si age < 0 \/ age > 150 alors
+            affiche("Vous n'avez pas saisi un âge correct.")
+        sinon si age < 14 alors
+            categorie ← "Enfant"
+        sinon si age <= 24 alors
+            categorie ← "Adolescent"
+        sinon si age <= 64 alors
+            categorie ← "Adulte"
+        sinon
+            categorie ← "Aîné"
+        affiche("vous êtes :",categorie)
+    3 fin
+    ```
+---
+
 ## Exercice 12 (x x x Mot de passe). = 1.2p
 
 1.  Écrire un pseudo-code qui prend deux entiers en entrée et renvoie en sortie s’ils correspondent à l’une des combinaisons (premier, second) suivantes :
@@ -188,4 +216,5 @@
     ```
 
 *Pour ce pseudo code j'ai affiché directement mais sinon j'aurais fait une sortie et au lieu de affiche("gg!") j'aurais fait resultat ← 1 si c'est vrai et resultat ← 0 si faux.*
+
 
