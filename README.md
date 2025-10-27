@@ -11,9 +11,9 @@
 ### Récapitulatif
 
 * Max 8 exercices
-* Actuel 7 exo = 8.4p
+* Actuel 8 exo = 9.6p
 * 1 de x x - facile (0.8 point).
-* 5 de x x x - moyen (1.2 point).
+* 6 de x x x - moyen (1.2 point).
 * 1 de x x x x - difficile (1.6 point).
 
 ---
@@ -216,5 +216,6 @@
     ```
 
 *Pour ce pseudo code j'ai affiché directement mais sinon j'aurais fait une sortie et au lieu de affiche("gg!") j'aurais fait resultat ← 1 si c'est vrai et resultat ← 0 si faux.*
+
 
 
